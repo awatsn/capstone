@@ -5,4 +5,9 @@
 [node name="MainScene" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 25, 17 )
+position = Vector2( 174.93, 140.293 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( -2.18225, -2.07533, 1021.16, 0.92128, 1025.66, 600.244, -0.68396, 604.739, 2.31268, 317.064, 258.523, 444.42, 477.276, 564.285, 751.466, 448.915, 964.226, 516.339, 919.277, 158.244, 567.175, 36.8806, 138.659, 35.3823, 39.7704, 15.9044, 0.814392, 312.569 )
